@@ -1,28 +1,39 @@
 .container_1 {
     width: 600px;
     height: 400px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(246, 246, 246);
     margin-left: auto;
     margin-right: auto;
+    border-spacing:10px;
     margin-top: 100px;
+    vertical-align: middle;
 }
 
 .container_2 {
     width: 150px;
     height: 350px;
-    background-color: rgb(233, 233, 233);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 25px;
+    background-color: rgb(246, 246, 246);
     border-bottom: 5px solid blue;
     border-left: 5px solid blue;
     border-top: 5px solid blue;
+    display:table-cell;
+    vertical-align: middle;
 }
 
 .container_3 {
-    width: 300px;
+    width: 325px;
     height: 150px;
-    background-color: red;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: rgb(246, 246, 246);
+    margin-left: 25px;
+    display:inline-block;
+}
+
+.container_3 h1 {
+    color: blue;
+    font-size: 175%;
+}
+
+.container_3 button {
+    background-color: blue;
+    color: white;
 }
