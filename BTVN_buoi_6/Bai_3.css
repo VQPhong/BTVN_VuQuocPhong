@@ -1,0 +1,71 @@
+.bg_main {
+    height: 500px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg_main_top {
+    height: 100px;
+    width: 1200px;
+    background-color: rgb(60, 63, 93);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1 {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+
+.sub_img_left {
+    height: 430px;
+    width: 125px;
+    position: absolute;
+    background-color: rgb(236, 104, 67);
+    margin-top: -80px;
+    margin-left: 750px;
+    border-radius: 10px;
+}
+
+.note_box {
+    height: 175px;
+    width: 300px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: 225px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+
+.note_div_cont {
+    height: fit-content;
+    width: 250px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.note_image {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.note_image p {
+    font-family: 'Roboto';
+    font-size: 75%;
+}
+
+.note_image u {
+    font-family: 'Roboto';
+}
+
+.note_image h1 {
+    font-family: 'Open Sans';
+    font-size: 175%;
+}
