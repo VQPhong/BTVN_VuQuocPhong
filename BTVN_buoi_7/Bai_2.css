@@ -1,0 +1,117 @@
+.bg_main {
+    height: 425px;
+    width: 1000px;
+    background-color: rgb(26, 29, 34);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lora';
+    color: white;
+}
+
+button {
+    font-family: 'Lora';
+}
+
+.div_select_menu {
+    height: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div_namecard {
+    height: 25px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.div_pic_menu {
+    height: 200px;
+    width: 875px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.selection {
+    height: 50px;
+    width: 125px;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    background-color: rgb(26, 29, 34);
+}
+
+.selection:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.div_pic:hover .size_1{
+    filter: blur(1px);
+    transform: scale(1.1);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    background-color:#000;
+    opacity:0.5;
+    cursor: pointer;
+}
+
+.div_pic:hover .img_text {
+    visibility: visible;
+}
+
+.div_pic {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.div_pic_text {
+    margin-top: 85px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 150%;
+    visibility: hidden;
+}
+
+.size_1 {
+    height: 200px;
+    width: 200px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.left_225 {
+    margin-left: 225px;
+}
+
+.left_450 {
+    margin-left: 450px;
+}
+
+.left_675 {
+    margin-left: 675px;
+}
+
+.z_1 {
+    z-index: 1;
+}
+
+.z_2 {
+    z-index: 2;
+}
