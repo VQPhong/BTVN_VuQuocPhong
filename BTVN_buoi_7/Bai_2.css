@@ -81,6 +81,7 @@ button {
     text-align: center;
     font-size: 150%;
     visibility: hidden;
+    cursor: pointer;
 }
 
 .size_1 {
