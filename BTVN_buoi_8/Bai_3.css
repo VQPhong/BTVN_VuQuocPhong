@@ -25,6 +25,11 @@
     cursor: pointer;
 }
 
+.div_pic:not(:hover) .size_1{
+    transform: scale(1.0);
+    transition: 2s;
+}
+
 .div_pic:hover .hidden {
     visibility: visible;
 }
@@ -42,6 +47,18 @@
 .div_pic:hover .top_275{
     margin-top: 140px;
     background-color: rgba(0, 0, 0, 0.482);
+    transition: 0.5s;
+}
+
+.div_pic:not(:hover)  .top_235{
+    margin-top: 235px;
+    background-color: none;
+    transition: 0.5s;
+}
+
+.div_pic:not(:hover) .top_275{
+    margin-top: 275px;
+    background-color: none;
     transition: 0.5s;
 }
 
