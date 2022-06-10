@@ -46,15 +46,21 @@ img {
 }
 
 .item_hover:hover p{
-    transition: 1s;
     color: rgba(255, 255, 255, 255);
+    transition-duration: 0.5s;
+    transition-delay: 0.75s;
 }
 
 .item_hover:not(:hover) p{
-    transition: 1s;
     color: rgba(255, 255, 255, 0);
+    transition-duration: 0.5s;
+    transition-delay: 0s;
 }
 
+.item_hover:not(:hover) ~ .hovering_div{
+    color: rgba(255, 255, 255, 0);
+    transition: 1.5s;
+}
 
 .item1:hover ~ .hovering_div{
     --x: -290px;
@@ -128,10 +134,16 @@ p {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    transition-property: color;
+
 }
 
 .margin_neg_450 {
     margin-top: -450px;
+}
+
+.z_1 {
+    z-index: 1;
 }
 
 .z_2 {
