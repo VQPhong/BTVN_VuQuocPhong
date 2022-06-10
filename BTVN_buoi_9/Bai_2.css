@@ -1,0 +1,143 @@
+:root {
+    --x: 10px;
+    --y: 10px;
+    --color_val: #ffffff00;
+}
+
+.bg_main {
+    width: 900px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-family: 'Sacramento';
+    border: 5px solid black;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.grid_container_2 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px 150px 150px;
+    background-color: none;
+}
+
+.item9 {
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(200, 200, 200));
+}
+
+.absolute {
+    display: absolute;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+    z-index: 1;
+}
+
+.item_hover:hover{
+    cursor: pointer;
+}
+
+.item_hover:hover p{
+    transition: 1s;
+    color: rgba(255, 255, 255, 255);
+}
+
+.item_hover:not(:hover) p{
+    transition: 1s;
+    color: rgba(255, 255, 255, 0);
+}
+
+
+.item1:hover ~ .hovering_div{
+    --x: -290px;
+    --y: -590px;
+    --color_val: rgba(0, 0, 149, 0.736);
+    transition: 1.5s;
+}
+
+.item2:hover ~ .hovering_div{
+    --x: -290px;
+    --y: -290px;
+    --color_val: rgba(0, 0, 255, 0.43);
+    transition: 1.5s;
+}
+
+.item3:hover ~ .hovering_div{
+    --x: -290px;
+    --y: 10px;
+    --color_val: rgba(0, 0, 255, 0.201);
+    transition: 1.5s;
+}
+
+.item4:hover ~ .hovering_div{
+    --x: -140px;
+    --y: -590px;
+    --color_val: rgba(255, 132, 0, 0.299);
+    transition: 1.5s;
+}
+
+.item5:hover ~ .hovering_div{
+    --x: -140px;
+    --y: -290px;
+    --color_val: rgba(149, 255, 0, 0.544);
+    transition: 1.5s;
+}
+
+.item6:hover ~ .hovering_div{
+    --x: -140px;
+    --y: 10px;
+    --color_val: rgba(255, 132, 0, 0.299);
+    transition: 1.5s;
+}
+
+.item7:hover ~ .hovering_div{
+    --x: 10px;
+    --y: -590px;
+    --color_val: rgba(0, 0, 0, 0.292);
+    transition: 1.5s;
+}
+
+.item8:hover ~ .hovering_div{
+    --x: 10px;
+    --y: -290px;
+    --color_val: rgba(255, 225, 0, 0.467);
+    transition: 1.5s;
+}
+
+.hovering_div {
+    width: 280px;
+    height: 130px;
+    margin-top: var(--x);
+    margin-left: var(--y);
+    background-color: var(--color_val);
+}
+
+p {
+    width: fit-content;
+    height: 50px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 250%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin_neg_450 {
+    margin-top: -450px;
+}
+
+.z_2 {
+    z-index: 2;
+}
+
+.z_3 {
+    z-index: 3;
+}
