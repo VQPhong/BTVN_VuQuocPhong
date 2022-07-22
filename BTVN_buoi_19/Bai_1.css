@@ -1,0 +1,27 @@
+.task{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.space{
+    margin: 20px 0px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100px;
+    margin-bottom: 5px;
+}
